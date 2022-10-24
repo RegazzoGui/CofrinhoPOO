@@ -1,0 +1,21 @@
+/*
+Este programa compreende a atividade avaliativa da disciplina de Programação Orientada a Objetos
+
+IMPORTANTE
+O aplicativo deve ser rodado a partir do pacote programa em Main.java
+
+A classe Moeda é uma classe abstrata que possibilita aplicação dos conceitos de herança e polimorfismo 
+com as classes filhas: Real, Dolar e Euro.
+
+As classes filhas (Real, Dolar e Euro):
+O método info() possibilita acessar os valores inputados pelo usuário 
+O método converter() realiza a conversão para real considerando a cotação do dolar e do euro no dia 22/10/2022
+Os métodos equals e hashcode foram implementados para que fosse possível realizar comparação entre os estados das classes supracitadas
+
+A classe Cofrinho implementa os métodos de manipulação dos dados, que foram adicionados em uma lista e guardados em memória
+O método adicionarMoeda() identifica qual moeda o usuário deseja inserir e realiza a operação, de forma análoga os demais
+métodos foram implementados
+removerMoeda() -> Solicita a moeda e o valor para remoção da memória
+listaMoedas() -> Foreach para exibir ao usuário todas as moedas inseridas no cofrinho
+totalMoedas()  -> Foreach que apresenta a soma em REAL de todos os valores no interior do cofrinho
+*/
